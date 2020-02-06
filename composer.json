@@ -1,0 +1,22 @@
+{
+    "name": "jc-oclock/okanban-backend",
+    "description": "Backend application for studying API",
+    "type": "project",
+    "require": {
+        "altorouter/altorouter": "^1.2",
+        "symfony/var-dumper": "^4.3",
+        "benoclock/alto-dispatcher": "^1.0"
+    },
+    "authors": [
+        {
+            "name": "JC O'clock",
+            "email": "jc@oclock.io"
+        }
+    ],
+    "autoload": {
+        "psr-4": {
+            "oKanban\\": "app/",
+            "oFramework\\": "framework/"
+        }
+    }
+}

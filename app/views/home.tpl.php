@@ -1,0 +1,2 @@
+<h1>Bienvenue sur oKanban !</h1>
+<p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Ratione, amet. Voluptates, minima cupiditate recusandae voluptate odio exercitationem optio nostrum qui dolor, perspiciatis adipisci voluptatibus quam ipsa. Blanditiis delectus distinctio incidunt.</p>

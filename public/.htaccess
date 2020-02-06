@@ -1,0 +1,13 @@
+RewriteEngine On
+
+# dynamically setup base URI
+RewriteCond %{REQUEST_URI}::$1 ^(/.+)/(.*)::\2$
+RewriteRule ^(.*) - [E=BASE_URI:%1]
+
+
+# Si l'URL demandée n'est pas un dossier existant
+RewriteCond %{REQUEST_FILENAME} !-d
+# Si l'URL demandée n'est pas un fichier existant
+RewriteCond %{REQUEST_FILENAME} !-f
+# Redirige chaque requête vers index.php
+RewriteRule . index.php [L]
